@@ -10,7 +10,7 @@ st.sidebar.image(image,caption='',use_column_width=True)
 #definindo as paginas 
 def page1():
 
-image = Image.open('Home.jpg')
+image = Image.open('Um pouco de min 1.png')
 st.sidebar.image(image,caption='',use_column_width=True)
 
 def page2():
