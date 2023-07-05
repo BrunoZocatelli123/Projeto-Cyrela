@@ -1,4 +1,10 @@
-import streamlit as st 
+import streamlit as st
+from PIL import Image
+
+st.set_page_config(layout="wide")
+
+image = Image.open('Logo-Cyrela.png')
+st.sidebar.image(image,caption='',use_column_width=True)
 
 def page1():
     st.title('Apresentação pessoal')
