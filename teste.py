@@ -26,9 +26,18 @@ def page2():
     image = Image.open('HR1.png')
     st.image(image,caption='',use_column_width=True)
 
+    image = Image.open('HR2.png')
+    st.image(image,caption='',use_column_width=True)
+
+    image = Image.open('HR3.png')
+    st.image(image,caption='',use_column_width=True)
+
 def page3():
     st.title('Minha Trajetória e Futuro')
     st.write('Conteúdo da página 3')
+
+    image = Image.open('MT1.png')
+    st.image(image,caption='',use_column_width=True)
 
 # Criando o seletor de abas
 page = st.sidebar.selectbox('Selecione a página', ('Apresentação pessoal', 'Habilidades', 'Minha Trajetória'))
