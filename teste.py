@@ -25,3 +25,5 @@ elif page == 'Sobre a Cyrela':
     page2()
 elif page == 'Apresentação do Case':
     page3()
+
+
