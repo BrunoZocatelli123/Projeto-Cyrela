@@ -9,7 +9,9 @@ st.sidebar.image(image,caption='',use_column_width=True)
 
 #definindo as paginas 
 def page1():
-
+    
+    st.title('Apresentação Pessoal')
+    
 def page2():
     st.title('Conteudos Sobre a Cyrela')
     st.write('Conteúdo da página 2')
