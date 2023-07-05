@@ -32,6 +32,9 @@ def page2():
     image = Image.open('HR3.png')
     st.image(image,caption='',use_column_width=True)
 
+     image = Image.open('HR4.png')
+    st.image(image,caption='',use_column_width=True)
+
 def page3():
     st.title('Minha Trajetória e Futuro')
     st.write('Conteúdo da página 3')
