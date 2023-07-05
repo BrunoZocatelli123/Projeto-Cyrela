@@ -36,7 +36,7 @@ page = st.sidebar.selectbox('Selecione a página', ('Apresentação pessoal', 'H
 # Renderizando a página selecionada
 if page == 'Apresentação pessoal':
     page1()
-elif page == 'Habilidades Relevantes':
+elif page == 'Habilidades':
     page2()
 elif page == 'Minha Trajetória':
     page3()
