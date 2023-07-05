@@ -13,6 +13,9 @@ def page1():
     st.title('Apresentação Pessoal')
     image = Image.open('Home.jpg')
     st.image(image,caption='',use_column_width=True)
+
+    image = Image.open('Um pouco de min 1.jpg')
+    st.image(image,caption='',use_column_width=True)
     
 def page2():
     st.title('Conteudos Sobre a Cyrela')
