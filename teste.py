@@ -9,7 +9,7 @@ def page2():
     st.write('Conteúdo da página 2')
 
 def page3():
-    st.title('Apresentação do Case1')
+    st.title('Apresentação do Case')
     st.write('Conteúdo da página 3')
 
 # Criando o seletor de abas
