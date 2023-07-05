@@ -11,6 +11,8 @@ st.sidebar.image(image,caption='',use_column_width=True)
 def page1():
     
     st.title('Apresentação Pessoal')
+    image = Image.open('Home.jpg')
+    st.image(image,caption='',use_column_width=True)
     
 def page2():
     st.title('Conteudos Sobre a Cyrela')
