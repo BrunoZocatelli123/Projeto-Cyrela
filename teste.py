@@ -3,9 +3,11 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 
+#colocando logo na sidebar
 image = Image.open('Logo-Cyrela.png')
 st.sidebar.image(image,caption='',use_column_width=True)
 
+#definindo as paginas 
 def page1():
     st.title('Apresentação pessoal')
     st.write('Conteúdo da página 1')
