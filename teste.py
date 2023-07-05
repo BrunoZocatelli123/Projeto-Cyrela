@@ -21,24 +21,24 @@ def page1():
     st.image(image,caption='',use_column_width=True)
     
 def page2():
-    st.title('Habilidades Relevantes')
+    st.title('Habilidades')
 
     image = Image.open('HR1.png')
     st.image(image,caption='',use_column_width=True)
 
 def page3():
-    st.title('Apresentação do Case')
+    st.title('Minha Trajetória e Futuro')
     st.write('Conteúdo da página 3')
 
 # Criando o seletor de abas
-page = st.sidebar.selectbox('Selecione a página', ('Apresentação pessoal', 'Habilidades Relevantes', 'Apresentação do Case'))
+page = st.sidebar.selectbox('Selecione a página', ('Apresentação pessoal', 'Habilidades', 'Minha Trajetória'))
 
 # Renderizando a página selecionada
 if page == 'Apresentação pessoal':
     page1()
 elif page == 'Habilidades Relevantes':
     page2()
-elif page == 'Apresentação do Case':
+elif page == 'Minha Trajetória':
     page3()
 
 
