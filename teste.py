@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 #colocando logo na sidebar
 image = Image.open('Logo-Cyrela.png')
 st.sidebar.image(image,caption='',use_column_width=True)
-st.sidebar.title('Apresentação Pessoal Bruno Zocatelli')
+st.sidebar.markdown('Apresentação Pessoal - Bruno Zocatelli')
 
 #definindo as paginas 
 def page1():
