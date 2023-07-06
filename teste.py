@@ -13,13 +13,9 @@ def page1():
     
     st.title('Apresentação Pessoal')
     image = Image.open('AP1.png')
-    st.image(image,caption='',use_column_width=True)
-    /n    
-    /n
-    /n
+    st.image(image,caption='',use_column_width=True)/n
     image = Image.open('AP2.png')
     st.image(image,caption='',use_column_width=True)
-
     image = Image.open('AP3.png')
     st.image(image,caption='',use_column_width=True)
     
