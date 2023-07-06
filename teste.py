@@ -42,6 +42,12 @@ def page3():
     image = Image.open('MT1.png')
     st.image(image,caption='',use_column_width=True)
 
+    image = Image.open('VF1.png')
+    st.image(image,caption='',use_column_width=True)
+
+    image = Image.open('VF2.png')
+    st.image(image,caption='',use_column_width=True)
+
 # Criando o seletor de abas
 page = st.sidebar.selectbox('Selecione a página', ('Apresentação pessoal', 'Habilidades', 'Minha Trajetória'))
 
