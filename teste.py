@@ -45,7 +45,7 @@ def page3():
     image = Image.open('VF2.png')
     st.image(image,caption='',use_column_width=True)
     
-st.title('Link para acessar o repositório do projeto!')
+st.markdown('Link para acessar o repositório do projeto!')
 st.markdown('https://github.com/BrunoZocatelli123/Projeto-Cyrela')
 # Criando o seletor de abas
 page = st.sidebar.selectbox('Selecione a página', ('Apresentação pessoal', 'Habilidades', 'Minha Trajetória'))
