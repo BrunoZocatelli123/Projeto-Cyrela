@@ -25,9 +25,6 @@ def page2():
     image = Image.open('HR1.png')
     st.image(image,caption='',use_column_width=True)
     
-    image = Image.open('barra.png')
-    st.image(image,caption='',use_column_width=True)
-    
     image = Image.open('HR2.png')
     st.image(image,caption='',use_column_width=True)
 
