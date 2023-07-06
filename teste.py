@@ -3,12 +3,12 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 
-#colocando logo na sidebar
+#colocando logo e escrevendo na sidebar
+st.sidebar.markdown('Apresentação Pessoal - Bruno Zocatelli')
 image = Image.open('Logo-Cyrela.png')
 st.sidebar.image(image,caption='',use_column_width=True)
-st.sidebar.markdown('Apresentação Pessoal - Bruno Zocatelli')
 
-#definindo as paginas 
+#definindo as paginas e o que haverá em cada uma delas
 def page1():
     
     st.title('Apresentação Pessoal')
